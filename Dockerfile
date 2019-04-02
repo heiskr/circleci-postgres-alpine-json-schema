@@ -6,5 +6,3 @@ RUN apk add make
 RUN git clone https://github.com/gavinwahl/postgres-json-schema.git && \
   cd postgres-json-schema && \
   make install
-
-CMD ["postgres"]
